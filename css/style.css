@@ -1,13 +1,42 @@
 
 
 .backgroundContainer{
-	background:#EEE5DE;
+	background:#EAEAEA;
 }
 
-.topContainer{
+.topContainer, .middleContainer, .bottomContainer {
 	padding-top:30px;
 	padding-left: 50px;
 	background:white;
+	font-family:tahoma;
+	border:solid;
+	border-color:	#838B83;
 }
 
+.greenHeader{
+	color:#3D9140;
+	font-size:31px;
+}
 
+.greenHeader2{
+	color:#3D9140;
+}
+
+.bottomLinksContainer{
+	float:center;
+}
+
+.spacer {
+	height:30px;
+	background:#EAEAEA;
+}
+
+.pillStyle>li>a{
+	display:block; 
+	color:green;
+}
+
+.pillStyle a:hover{
+	color:white;
+	background-color:green;
+}
